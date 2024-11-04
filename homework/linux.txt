@@ -13,9 +13,9 @@ cat selected.txt commands.txt
   343  wc -l processes.txt
   344  wc -l processes.txt > selected.txt
   345  cat selected.txt
-  346  grep "/bin" selected.txt
-  347  grep "/bin" processes.txt
-  348  grep "/bin" processes.txt >> selected.txt
+  346  grep -n "/bin" selected.txt
+  347  grep -n "/bin" processes.txt
+  348  grep -n "/bin" processes.txt >> selected.txt
   349  history
   350  history | tail -n17 > commands.txt
   351  less commands.txt
