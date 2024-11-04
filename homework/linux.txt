@@ -1,0 +1,24 @@
+cat selected.txt commands.txt
+6 processes.txt
+  333  mkdir katalog
+  334  touch ./katalog/processes.txt
+  335  ps aux > ./katalog/processes.txt
+  336  cd katalog
+  337  less processes.txt
+  338  cp processes.txt copy.txt
+  339  mkdir backup
+  340  mv copy.txt ./backup/copy.txt
+  341  ls
+  342  man wc
+  343  wc -l processes.txt
+  344  wc -l processes.txt > selected.txt
+  345  cat selected.txt
+  346  grep "/bin" selected.txt
+  347  grep "/bin" processes.txt
+  348  grep "/bin" processes.txt >> selected.txt
+  349  history
+  350  history | tail -n17 > commands.txt
+  351  less commands.txt
+  352  history | tail -n19 > commands.txt
+  353  less commands.txt
+  354  history | tail -n22 > commands.txt
